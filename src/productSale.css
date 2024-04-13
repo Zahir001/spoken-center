@@ -1,0 +1,140 @@
+.productSaleStyle {
+  padding: 14px;
+  background-color: #fff;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.productTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputStyle {
+  display: -webkit-inline-box;
+  column-gap: 30px;
+}
+
+.productname {
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1.3px solid gray;
+  padding-bottom: 4px;
+}
+
+.productname h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+
+.stocknameStyle {
+  display: flex;
+  column-gap: 78px;
+}
+
+.productNameList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.productListImage figure {
+  width: 132px;
+  height: 69px;
+  margin: 0;
+}
+
+.productListImage figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.productStocklistStyle {
+  display: flex;
+  margin-right: 35px;
+  column-gap: 75px;
+}
+
+.productListImage {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.productListImage h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.productListImage span {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .productStocklistStyle {
+    display: flex;
+    column-gap: 32px;
+    margin-right: 2px;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .stocknameStyle {
+    display: flex;
+    column-gap: 8px;
+    font-size: 12px;
+  }
+
+  .textMobileProduct {
+    width: 100%;
+  }
+
+  .inputStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .customMobileStyle {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+
+  .productListImage h3 {
+    font-size: 14px;
+  }
+
+  .productListImage span {
+    font-size: 12px;
+  }
+
+  .productListImage figure {
+    width: 75px;
+    height: 48px;
+  }
+
+  .productListImage {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+  .productNameList {
+    align-items: baseline;
+  }
+
+  .productname h2 {
+    font-size: 14px;
+  }
+
+  .productTitle {
+    display: flex;
+    flex-direction: column;
+  }
+}

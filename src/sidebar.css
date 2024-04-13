@@ -1,0 +1,65 @@
+.dashboardIcon {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+.dashboardlistIcon {
+  font-size: 24px;
+  margin-right: 14px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #2D2D69;
+}
+
+.navbarBody {
+  background-color: #040440;
+  width: 280px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.nav-pills .nav-link {
+  color: #B6B7C9;
+}
+
+.customArrowStyle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userNameBGStyle {
+  background-color: #2D2D69;
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userNameBGStyle span {
+  color: #B6B7C9;
+}
+
+@media only screen and (max-width: 768px) {
+  .initial{
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: all 0.4s ease;
+  }
+  
+  .collpase{
+    transform: translateX(0%);
+    transition: all 0.4s ease;
+    z-index: 1;
+  }
+
+  .rightSection {
+    flex: 1;
+    margin-left: 0;
+  }
+}

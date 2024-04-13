@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+.homeParentDiv {
+  background-color: #F5F6F8;
+  font-family: 'Inter';
+  width: 100%;
+  padding: 30px 36px 0px 36px;
+}
+
+.rightSection {
+  flex: 1;
+  margin-left: 279px;
+}
+
+.headText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headTextStyle {
+  display: flex;
+  align-items: baseline;
+}
+
+.headTextStyle h1,
+.headTextStyle span {
+  font-size: 24px;
+}
+
+.inputField .searchIcon {
+  position: relative;
+  left: 24px;
+  font-size: 22px;
+  color: gray;
+}
+
+.inputField input {
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  padding-left: 26px;
+}
+
+.iconCardStyleone {
+  height: 81px;
+  width: 81px;
+  background-color: #EBFFF4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconCardStyletwo {
+  height: 81px;
+  width: 81px;
+  background-color: #E7DBFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconCardStylethree {
+  height: 81px;
+  width: 81px;
+  background-color: #CCF2FF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconCardStylefour {
+  height: 81px;
+  width: 81px;
+  background-color: #FFB4DB;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconCardfirst {
+  font-size: 50px;
+  color: #00A848;
+}
+
+.iconCardsecond {
+  font-size: 50px;
+  color: #A714FE;
+}
+
+.iconCardthird {
+  font-size: 50px;
+  color: #0758C0;
+}
+
+.iconCardfourth {
+  font-size: 50px;
+  color: #D7000E;
+}
+
+.cardsParent {
+  display: flex;
+  justify-content: center;
+  column-gap: 36px;
+  margin-top: 40px;
+}
+
+.cards {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px 10px;
+  width: 100%;
+  column-gap: 16px;
+}
+
+.thismonthTitle {
+  margin-left: 6px;
+  color: #7E8385;
+}
+
+.percentUp {
+  color: #00A848;
+}
+
+.percentDown {
+  color: #CD1243;
+}
+
+.graphParent {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 55px;
+  align-items: center;
+}
+
+.graphchild_one {
+  padding: 16px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+}
+
+.graphchild_two {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBFCFE;
+  border-radius: 12px;
+  padding: 16px;
+  flex-direction: column;
+}
+
+.overview-btn-style {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-class-style {
+  background-color: #F9FAFE;
+}
+
+.percentCount {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.newCustomersText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pieGraphP {
+  display: flex;
+  width: 246px;
+  height: 246px;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.graphchildcustomer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 100%;
+}
+
+.productTitle h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.imgStyle {
+  width: 100%;
+  height: 650px;
+}
+
+.imgStyle img {
+  width: 100%;
+  height: 100%;
+}
+
+.figureTitleStyle h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1f60e1;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.barChartMobile {
+  width: 700px;
+  height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobileOnly {
+    display: block;
+  }
+
+  .cardsParent {
+    display: grid;
+    grid-template-columns: repeat(1, 0.9fr);
+    row-gap: 34px;
+  }
+
+  .graphParent {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+
+  .headText {
+    margin-top: 30px;
+  }
+
+  .barChartMobile {
+    width: 314px !important;
+    height: 250px !important;
+  }
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .homeParentDiv {
+    background-color: #F5F6F8;
+    font-family: 'Inter';
+    width: 100%;
+    padding: 14px 14px 0px 14px;
+  }
+
+  .inputField .searchIcon {
+    position: relative;
+    left: 4px;
+    top: 27px;
+  }
+
+  .inputField .headerSearchIcon {
+    top: 28px;
+    left: 1px;
+  }
+
+  .productTitle h1 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .figureTitleStyle h1 {
+    margin-top: 42px;
+  }
+
+  .inputField input {
+    width: 100%;
+  }
+}

@@ -1,0 +1,17 @@
+.progress-bar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #fff 65%, transparent 50% 100%), conic-gradient(#F33295 0 15%, #6038EA 15% 65%, #F1EFFC 0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-bar span {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
