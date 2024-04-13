@@ -9,6 +9,7 @@ function App() {
 
         <Sidebar />
         <div className='rightSection'>
+          
           <Outlet />
         </div>
       </div>

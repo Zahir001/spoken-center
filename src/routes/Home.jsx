@@ -16,7 +16,7 @@ const Home = () => {
       
       <div className='headText'>
         <div className='headTextStyle'>
-          <h1>Hello Shahrukh </h1>
+          <h1>Hamid Sir Classes </h1>
           <span>👋,</span>
         </div>
         <div className='inputField'>
