@@ -14,16 +14,17 @@ import Promote from './routes/Promote.jsx';
 import Help from './routes/Help.jsx';
 
 const router = createBrowserRouter([
-  {path: '/', element: <App />,
-  children:[
-    {path:'/', element: <Home />},
-    {path:'/product', element: <Product />},
-    {path:'/income', element: <Income />},
-    {path:'/customer', element: <Customers />},
-    {path:'/promote', element: <Promote />},
-    {path:'/help', element: <Help />}
-  ]
-}
+  {
+    path: '/', element: <App />,
+    children: [
+      { path: '/', element: <Home /> },
+      { path: '/product', element: <Product /> },
+      { path: '/income', element: <Income /> },
+      { path: '/customer', element: <Customers /> },
+      { path: '/promote', element: <Promote /> },
+      { path: '/help', element: <Help /> }
+    ]
+  }
 ])
 
 

@@ -38,14 +38,14 @@ const Sidebar = () => {
           <li className="nav-item">
             <NavLink to="/" className="nav-link" aria-current="page" >
               <HiOutlineKey className='dashboardlistIcon' />
-              Dashboard
+              Home
             </NavLink>
           </li>
           <li>
             <NavLink to="/product" className="nav-link customArrowStyle">
               <div>
                 <GrCube className='dashboardlistIcon' />
-                Product
+                Offline Books
               </div>
               <FaChevronRight />
             </NavLink>
@@ -54,7 +54,7 @@ const Sidebar = () => {
             <NavLink to="/customer" className="nav-link customArrowStyle">
               <div>
                 <MdPerson className='dashboardlistIcon' />
-                Customers
+                Test Series
               </div>
               <FaChevronRight />
             </NavLink>
@@ -63,7 +63,7 @@ const Sidebar = () => {
             <NavLink to="/income" className="nav-link customArrowStyle">
               <div>
                 <LiaWalletSolid className='dashboardlistIcon' />
-                Income
+                My Order
               </div>
               <FaChevronRight />
             </NavLink>
@@ -72,7 +72,7 @@ const Sidebar = () => {
             <NavLink to="/promote" className="nav-link customArrowStyle">
               <div>
                 <LuBadgePercent className='dashboardlistIcon' />
-                Promote
+                Books
               </div>
               <FaChevronRight />
             </NavLink>

@@ -18,6 +18,7 @@ h6 {
 
 .app-container {
   display: flex;
+  flex-direction: column;
 }
 
 .mobileOnly {
@@ -238,6 +239,12 @@ h6 {
 .barChartMobile {
   width: 700px;
   height: 250px;
+}
+.swiperStyle img{
+  width: 100%;
+}
+.swiperStyle h3{
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {

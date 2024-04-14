@@ -8,22 +8,23 @@ import { HiShoppingBag } from "react-icons/hi";
 import Bargraph from '../components/Bargraph';
 import PieGraph from '../components/PieGraph';
 import ProductSale from '../components/ProductSale';
+import Slider from '../components/Slidercomp';
 
+const Home = () => {
 
-const Home = () => {  
   return (
     <div className='homeParentDiv'>
-      
+
       <div className='headText'>
         <div className='headTextStyle'>
           <h1>Hamid Sir Classes </h1>
-          <span>👋,</span>
         </div>
         <div className='inputField'>
           <IoSearch className='searchIcon headerSearchIcon' />
           <input type="text" placeholder='Search' />
         </div>
       </div>
+      <Slider />
       <div className='cardsParent'>
         <Card icon={<AiOutlineDollarCircle />} title={'Earnings'} price={'$198k'} percent={'↑ 37.8%'} firstclasss={'iconCardStyleone'} secondclass={'iconCardfirst'} thirdclass={'percentUp'} />
         <Card icon={<CgNotes />} title={'Orders'} price={'$2.4k'} percent={'↓ 2%'} firstclasss={'iconCardStyletwo'} secondclass={'iconCardsecond'} thirdclass={'percentDown'} />
